@@ -1,7 +1,4 @@
-/** @jsx jsx */
-import { ButtonHTMLAttributes } from 'react'
-import { jsx } from 'theme-ui';
-import React from 'react';
+import React, { ButtonHTMLAttributes } from 'react';
 
 type Props = Omit<ButtonHTMLAttributes<HTMLButtonElement>, "className">;
 
